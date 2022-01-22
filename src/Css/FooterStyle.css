@@ -1,0 +1,14 @@
+footer {
+    display: flex;
+    background-color: #161619;
+    align-items: center;
+    padding: 18px 0px;
+}
+
+footer > .icon-holder {
+    margin: auto;
+}
+
+footer > .icon-holder > img {
+    padding: 0px 15px;
+}

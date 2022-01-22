@@ -1,0 +1,93 @@
+.contact-light {
+    margin: 0;
+    background-color: #1a1b21;
+    width: 25%;
+}
+
+.contact-light > h1,
+.designation,
+.web,
+.btn-holder {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.contact-light > img {
+    margin-bottom: 15px;
+}
+
+.contact-light > h1 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.designation {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-top: 8px;
+    color: #f3bf99;
+}
+
+.web {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-top: 8px;
+    color: #f5f5f5;
+}
+
+.btn-holder {
+    margin: 10px 0px;
+}
+
+.btn-holder > button {
+    padding: 8px 0px;
+    width: 115px;
+    margin: 0px 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.btn-email {
+    color: #374151;
+    background: #ffffff;
+    border: 1px solid #1a1b21;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.btn-linkedin {
+    color: #ffffff;
+    background: #297fe5;
+    border: 1px solid #1a1b21;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.btn-holder > button > i {
+    padding: 0px 8px;
+}
+
+.data-holder {
+    padding: 24px 35px;
+}
+
+.data-holder > h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #ffffff;
+}
+.data-holder > p {
+    margin: 8px 0px;
+    font-size: 10px;
+    color: #dcdcdc;
+}
