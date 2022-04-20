@@ -2,7 +2,7 @@ import React from "react";
 import "../Css/HeaderStyle.css";
 import logo from "../Images/reactjs-icon.png";
 
-export default function Header() {
+export default function Header(props: { swapMode: any; darkMode: boolean }) {
     return (
         <nav>
             <img className="nav--logo" src={logo} alt="React Logo" />

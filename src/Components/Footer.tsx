@@ -5,7 +5,7 @@ import facebook from "../Images/ic_fb.png";
 import instagram from "../Images/ic_ig.png";
 import gitHub from "../Images/ic_git.png";
 
-export default function Footer() {
+export default function Footer(props: { darkMode: boolean }) {
     return (
         <footer>
             <div className="icon-holder">
