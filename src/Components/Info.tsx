@@ -1,7 +1,7 @@
 import React from "react";
 import "../Css/InfoStyle.css";
 
-export default function Info(props: { darkMode: boolean }) {
+export default function Info() {
     return (
         <div className="content">
             <h1 className="title">Fun Facts About React</h1>

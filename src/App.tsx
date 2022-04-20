@@ -3,24 +3,24 @@ import "./App.css";
 import Info from "./Components/Info";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
-import ContactCardLight from "./Components/ContactCardLight";
+import ContactCard from "./Components/ContactCard";
 
 function App() {
-    const [darkMode, setDarkMode] = useState(false);
+    const [darkMode, setDarkMode] = useState(true);
 
     function swapMode() {
         setDarkMode((prev) => !prev);
     }
 
     return (
-        <React.Fragment>
+        <div className={darkMode ? "dark-theme" : "light-theme"}>
             <Header swapMode={swapMode} darkMode={darkMode} />
             <div className="row">
-                <Info darkMode={darkMode} />
-                <ContactCardLight darkMode={darkMode} />
+                <Info />
+                <ContactCard />
             </div>
-            <Footer darkMode={darkMode} />
-        </React.Fragment>
+            <Footer />
+        </div>
     );
 }
 

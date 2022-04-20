@@ -1,6 +1,6 @@
 footer {
     display: flex;
-    background-color: #161619;
+    background-color: var(--navBg);
     align-items: center;
     padding: 18px 0px;
 }

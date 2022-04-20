@@ -2,7 +2,7 @@ import React from "react";
 import "../Css/ContactCardStyle.css";
 import profile from "../Images/saad.jpg";
 
-export default function ContactCardLight(props: { darkMode: boolean }) {
+export default function ContactCard() {
     return (
         <div className="contact-light">
             <img src={profile} alt="" width="100%" />
@@ -29,8 +29,8 @@ export default function ContactCardLight(props: { darkMode: boolean }) {
                 </p>
                 <h4>Interests</h4>
                 <p>
-                    Food expert. Music scholar. Reader. Internet fanatic. Bacon
-                    buff. Entrepreneur. Travel geek. Pop culture ninja. Coffee
+                    Food expert. Music scholar. Reader. Internet fanatic.
+                    Entrepreneur. Travel geek. Pop culture ninja. Coffee
                     fanatic.
                 </p>
             </div>

@@ -1,3 +1,32 @@
+:root{
+    --darkColor:#282d35;
+    --darkbgColor:#1a1b21;
+    --lightColor:#deebf8;
+    --whiteColor:#fff;
+    --lightBlueColor:#61dafb;
+}
+
+.light-theme {
+    --navBg: var(--lightColor);
+    --mainBg: var(--whiteColor);
+    --fontColor: var(--darkColor);
+    --accentColor: var(--lightBlueColor);
+    --btnBack: var(--whiteColor);
+  }
+  
+.dark-theme {
+    --navBg: var(--darkbgColor);
+    --mainBg: var(--darkColor);
+    --fontColor: var(--lightColor);
+    --accentColor: var(--darkbgColor);
+    --btnBack: var(--darkColor);
+  }
+
+* {
+    color: var(--fontColor);
+    transition: background-color 0.6s ease, color 1s ease;
+  }  
+
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, Inter, sans-serif;
@@ -8,7 +37,7 @@ body {
 .row {
     display: flex;
     flex-direction: row;
-    background-color: #282d35;
+    background-color: var(--mainBg);
 }
 
 code {

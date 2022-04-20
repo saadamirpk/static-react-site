@@ -1,8 +1,8 @@
-nav {
+nav{
     display: flex;
-    background-color: #21222a;
     align-items: center;
     padding: 30px 25px;
+    background-color: var(--navBg);
 }
 
 .nav--logo_text,
@@ -14,13 +14,11 @@ nav {
     margin-right: auto;
     font-weight: 700;
     font-size: 22px;
-    color: #61dafb;
 }
 
 .nav--title {
     font-weight: 600;
     font-size: 16px;
-    color: #deebf8;
 }
 
 .nav--logo {
